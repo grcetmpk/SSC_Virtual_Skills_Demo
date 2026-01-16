@@ -1,0 +1,23 @@
+---
+title: "Report"
+author: "Grace Tompkins"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## This is my introduction
+
+Here is where I would talk about my data
+
+## This is my methods section
+
+Isn't it cool how I can backup everything on GitHub? 
+
+I even Knit this to a PDF and it will be on my GitHub repository, too!
+
+
+
