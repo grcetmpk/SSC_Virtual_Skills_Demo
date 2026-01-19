@@ -6,3 +6,5 @@ head(mtcars)
 # fit model of relationship between wt and mpg
 model <- lm(mpg ~ wt, data = mtcars)
 summary(model)
+
+plot(mtcars$wt, mtcars$mpg)
