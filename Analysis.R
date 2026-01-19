@@ -8,3 +8,4 @@ model <- lm(mpg ~ wt, data = mtcars)
 summary(model)
 
 plot(mtcars$wt, mtcars$mpg)
+
